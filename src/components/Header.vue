@@ -31,7 +31,7 @@ export default {
 <style lang="scss" scope>
     .header {
         font-size: 2rem;
-        background-color: #00de72;
+        background-color: $color-primary;
         padding: 1.5rem 3rem;
         font-weight: 700;
         color: #fff;
