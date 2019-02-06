@@ -13,7 +13,6 @@ import Experience from './Experience.vue';
 import Skill from './Skill.vue';
 import About from './About.vue';
 export default {
-    name: "main",
     components: {
         Home,
         Experience,

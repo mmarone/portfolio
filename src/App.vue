@@ -22,10 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
-  font-family: "Quicksans", sans-serif;
-  text-align: center;
-  color: #2c3e50;
-}
+@import 'assets/scss/style.scss';
 </style>
