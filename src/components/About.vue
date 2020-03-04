@@ -1,15 +1,11 @@
 <template>
-    <div class="about">
-        This is about Section
-    </div>
+  <div id="about" class="about">
+    This is about Section
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

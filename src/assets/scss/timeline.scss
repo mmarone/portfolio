@@ -1,0 +1,132 @@
+$vertical: true;
+
+// Colours
+$bg: #48b379;
+$white: #eee9dc;
+// $white: #cfcfcf;
+$red: #f98262;
+
+#timeline {
+    list-style: none;
+    margin: 5rem 0 3rem 12rem;
+    padding-left: 30px;
+    border-left: 8px solid $bg;
+
+    li {
+        margin: 40px 0;
+        position: relative;
+    }
+    p {
+        margin: 0 0 15px;
+        // opacity: 0;
+    }
+}
+
+.date {
+    margin-top: -1.5rem;
+    top: 50%;
+    left: -15.8rem;
+    
+    font-size: 0.95em;
+    font-weight: 600;
+    line-height: 20px;
+    position: absolute;
+}
+
+.circle {
+    margin-top: -1.2rem;
+    top: 50%;
+    left: -4.6rem;
+
+    width: 20px;
+    height: 20px;
+    background: $red;
+    border: 5px solid $bg;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.content {
+    padding: 50px 20px 0;
+    border-color: transparent;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5em;
+    position: relative;
+
+    &:before, &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border: solid transparent;
+        position: absolute;
+        pointer-events: none;
+
+        right: 100%;
+        
+    }
+
+    &:before {
+        border-right-color: inherit;
+        border-width: 2rem;
+        top: 50%;
+        margin-top: -2rem;
+        
+      &:after {
+        border-right-color: $bg;
+        border-width: 17px;
+        top: 50%;
+        margin-top: -17px;
+          
+      }
+      p {
+        max-height: 0;
+        text-align: justify;
+        word-break: break-word;
+        hyphens: auto;
+        overflow: hidden;
+      }
+    }
+}
+
+label {
+    font-size: 1.3em;
+    font-weight: 700;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+
+    top: .2rem;
+    transition: transform 0.2s linear;    
+}
+
+.radio {
+    display: none;
+}
+.radio:checked {
+    & + .relative {
+        label {
+            cursor: auto;
+            transform: translate(42px , 10px)            
+        }
+
+        .circle {
+            background: $red;
+        }
+    }
+    & ~ .content {
+        border-color: $bg;
+        margin-right: 20px;
+        transform: translateX(20px);
+        transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
+        
+        p {
+            max-height: 200px;
+            color: $color-primary;
+            transition: color 0.3s linear 0.3s;
+        }
+    }
+}
