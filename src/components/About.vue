@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="about">
+  <div id="about" class="about bg-white">
     This is about Section
   </div>
 </template>
@@ -8,4 +8,6 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

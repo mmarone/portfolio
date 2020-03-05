@@ -18,7 +18,7 @@
         </li>
       </ul>
     </nav> -->
-    <!-- <div class="container">
+    <div class="container">
       <nav class="top-nav">
         <ul class="top-nav__menu">
           <li class="top-nav__item">
@@ -35,33 +35,7 @@
           </li>
         </ul>
       </nav>
-      <div class="information">
-        <h1 class="name">Nataphong Somjai</h1>
-        <div class="border--short"></div>
-        <h2 class="position">Web Developer</h2>
-      </div>
-    </div> -->
-    <nav class="top-nav">
-      <ul class="top-nav__menu">
-        <li class="top-nav__item">
-          <a class="top-nav__link is-size-4" href="#">Home</a>
-        </li>
-        <li class="top-nav__item">
-          <a class="top-nav__link is-size-4" href="#exp">Experience</a>
-        </li>
-        <li class="top-nav__item">
-          <a class="top-nav__link is-size-4" href="#skill">My skill</a>
-        </li>
-        <li class="top-nav__item">
-          <a class="top-nav__link is-size-4" href="#about">About Me</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- <div class="information">
-      <h1 class="name">Nataphong Somjai</h1>
-      <div class="border--short"></div>
-      <h2 class="position">Web Developer</h2>
-    </div> -->
+    </div>
     <div class="information">
       <h1 class="name">Nataphong Somjai</h1>
       <div class="border--short"></div>
@@ -82,7 +56,7 @@ export default {
 <style lang="scss" scope>
 .header {
   height: 100vh;
-  // font-size: 2rem;
+  font-size: 2rem;
   background-color: $color-primary;
   padding: 1.5rem 3rem;
   font-weight: 700;
@@ -90,7 +64,7 @@ export default {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 
   background-image: linear-gradient(
@@ -101,22 +75,18 @@ export default {
     url(../assets/img/2.jpg);
   background-attachment: fixed;
 
-  //   .menu-trigger {
-  //     width: 100%;
-  //     background-color: #fff;
-  //   }
+  .menu-trigger {
+    width: 100%;
+    background-color: #fff;
+  }
 
-  //   @media screen and (max-width: 660px) {
-  //     .container {
-  //       display: none;
-  //     }
-  //   }
-
-  .top-nav {
-    @media screen and (max-width: 660px) {
+  @media screen and (max-width: 660px) {
+    .container {
       display: none;
     }
-    width: 100%;
+  }
+
+  .top-nav {
     &__menu {
       display: flex;
       justify-content: space-evenly;
@@ -155,22 +125,24 @@ export default {
   }
 
   .information {
+    padding-top: 6rem;
+    @media only screen and (max-width: $bp-small) {
+      padding-top: 0;
+    }
     text-align: center;
 
     .name {
-      font-size: 4rem;
-      font-weight: 600;
+      font-size: 6rem;
       text-transform: uppercase;
       position: relative;
       line-height: 1.1;
+      @media only screen and (max-width: $bp-small) {
+        font-size: 4rem;
+      }
 
       animation-name: moveInLeft;
       animation-duration: 1s;
       animation-timing-function: ease-out;
-
-      @media only screen and (max-width: 900px) {
-        font-size: 3rem;
-      }
     }
 
     .border--short {
@@ -184,16 +156,14 @@ export default {
 
     .position {
       margin-top: 2rem;
-      font-size: 3rem;
-      font-weight: 600;
+      font-size: 5rem;
+      @media only screen and (max-width: $bp-small) {
+        font-size: 3.5rem;
+      }
 
       animation-name: moveInRight;
       animation-duration: 1s;
       animation-timing-function: ease-out;
-
-      @media only screen and (max-width: 900px) {
-        font-size: 2rem;
-      }
     }
   }
 }

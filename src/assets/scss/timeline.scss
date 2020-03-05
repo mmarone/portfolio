@@ -1,16 +1,8 @@
-$vertical: true;
-
-// Colours
-$bg: #48b379;
-$white: #eee9dc;
-// $white: #cfcfcf;
-$red: #f98262;
-
 #timeline {
     list-style: none;
     margin: 5rem 0 3rem 12rem;
     padding-left: 30px;
-    border-left: 8px solid $bg;
+    border-left: 8px solid $color-green;
 
     li {
         margin: 40px 0;
@@ -40,8 +32,8 @@ $red: #f98262;
 
     width: 20px;
     height: 20px;
-    background: $red;
-    border: 5px solid $bg;
+    background: $color-orange;
+    border: 5px solid $color-green;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -49,6 +41,9 @@ $red: #f98262;
 }
 
 .content {
+    // height: 50px;
+    // max-height: 20px;
+    // max-width: 660px;
     padding: 50px 20px 0;
     border-color: transparent;
     
@@ -76,7 +71,7 @@ $red: #f98262;
         margin-top: -2rem;
         
       &:after {
-        border-right-color: $bg;
+        border-right-color: $color-green;
         border-width: 17px;
         top: 50%;
         margin-top: -17px;
@@ -114,11 +109,11 @@ label {
         }
 
         .circle {
-            background: $red;
+            background: $color-orange;
         }
     }
     & ~ .content {
-        border-color: $bg;
+        border-color: $color-green;
         margin-right: 20px;
         transform: translateX(20px);
         transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;

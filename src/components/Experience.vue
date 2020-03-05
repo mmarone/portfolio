@@ -65,7 +65,8 @@ export default {};
 .exp {
   font-size: 2rem;
   padding: 5%;
-  background-color: $color-white;
+  // background-color: $color-white;
+  background-color: rgb(245, 245, 245);
 
   display: flex;
   flex-direction: column;
