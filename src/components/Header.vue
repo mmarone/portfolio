@@ -72,7 +72,7 @@ export default {
       rgba(56, 70, 77, 0.85),
       rgba(15, 19, 20, 0.85)
     ),
-    url(../assets/img/2.jpg);
+    url(../assets/img/bg.jpg);
   background-attachment: fixed;
 
   .menu-trigger {
