@@ -26,7 +26,7 @@
           </div>
           <div class="content">
             <p>
-              <b>Position:</b> IOS Developer <br />
+              <b>Position:</b> IOS Developer at TOT Innovation Institute<br />
               <b>Job Description:</b> Designed and developed Pathum Chamber
               application used for collecting information about restaurants in
               Pathumthani using Xcode and objective-c language.
@@ -42,9 +42,10 @@
           </div>
           <div class="content">
             <p>
-              <b>Position:</b> Web Developer <br />
-              <b>Job Description:</b> Web Developer. Developed the assigned web
-              application <br />
+              <b>Position:</b> Web Developer at Rajamangala University of
+              Technology Thunyaburi<br />
+              <b>Job Description:</b> Developed the assigned web applications
+              <br />
               - Front-end using HTML5 CSS(Bootstrap Framework) <br />
               and Javascript(Jquery) <br />
               - Back-end using PHP Mysql and Nodejs(Express Framework)

@@ -1,13 +1,8 @@
 <template>
   <div class="footer">
-    This is footer <br />
-    This is footer <br />
-    This is footer <br />
-    This is footer <br />
-    This is footer <br />
-    This is footer <br />
-    This is footer <br />
-    This is footer <br />
+    <p class="love">
+      Made with ✋ by Nataphong Somjai
+    </p>
   </div>
 </template>
 
@@ -15,4 +10,18 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.footer {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2rem 0;
+  text-align: center;
+  background: $color-white;
+}
+
+.footer .hand .icon {
+  font-size: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+</style>
