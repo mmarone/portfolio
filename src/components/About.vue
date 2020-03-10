@@ -2,16 +2,17 @@
   <section id="about" class="about bg-white">
     <div class="container">
       <div class="profile-pic">
-        <img src="@/assets/img/profile.jpg" alt="" />
       </div>
       <div class="profile-info">
         <div class="name">
           <b>Hi, i'm Nataphong!</b>
         </div>
         <p>
-          I like to building things with code and enthusiastic to gather new knowledge. 
-          I work in web developer for 2 years developed website Front-end and Back-end with PHP and Mysql. 
-          I am looking for a new job in position Front-end developer <b>(VueJS)</b> or Back-end developer <b>(NodeJS)</b>
+          I like to building things with code and enthusiastic to gather new
+          knowledge. I work in web developer for 2 years, developed website
+          Front-end and Back-end with PHP and Mysql. I am looking for a new job
+          in position Front-end developer <b>(VueJS)</b> or Back-end developer
+          <b>(NodeJS)</b>.
         </p>
         <div class="contact">
           <b>Tel : </b> 0955592959 <br />
@@ -72,17 +73,17 @@ export default {};
     border-radius: 50%;
     margin: 0 auto;
 
-    img {
-      width: 100%;
-    }
+    background-image: url(../assets/img/profile.jpg);
+    background-size: cover;
+    background-position: center;
   }
   .profile-info {
     margin-top: 2rem;
     .name {
-      font-size: 3.5rem;      
+      font-size: 3.5rem;
       text-align: center;
 
-      @media only screen and (max-width: $bp-small) {        
+      @media only screen and (max-width: $bp-small) {
         font-size: 2.75rem;
       }
     }
@@ -90,16 +91,16 @@ export default {};
     p {
       font-size: 2.5rem;
       text-align: justify;
-      @media only screen and (max-width: $bp-small) {        
+      @media only screen and (max-width: $bp-small) {
         font-size: 1.75rem;
       }
     }
 
-    .contact {      
+    .contact {
       font-size: 2.5rem;
       text-align: center;
       margin-top: 2rem;
-      @media only screen and (max-width: $bp-small) {        
+      @media only screen and (max-width: $bp-small) {
         font-size: 1.75rem;
       }
 

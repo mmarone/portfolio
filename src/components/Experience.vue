@@ -2,45 +2,11 @@
   <section id="exp" class="exp">
     <div class="container">
       <h1 class="section-header">EXPERIENCE</h1>
-      <ul id="timeline">
-        <li class="work">
-          <input class="radio" type="radio" checked />
-          <div class="relative">
-            <label>Education</label>
-            <span class="date">2012 - 2015</span>
-            <span class="circle"></span>
-          </div>
-          <div class="content">
-            <p>
-              Bachelor of Computer Science in Science and Technology ,
-              Rajamangala University of Technology Thanyaburi , GPA 3.11
-            </p>
-          </div>
-        </li>
-        <li class="work">
-          <input class="radio" type="radio" checked />
-          <div class="relative">
-            <label>Student intership</label>
-            <span class="date">2015</span>
-            <span class="circle"></span>
-          </div>
-          <div class="content">
-            <p>
-              <b>Position:</b> IOS Developer at TOT Innovation Institute<br />
-              <b>Job Description:</b> Designed and developed Pathum Chamber
-              application used for collecting information about restaurants in
-              Pathumthani using Xcode and objective-c language.
-            </p>
-          </div>
-        </li>
-        <li class="work">
-          <input class="radio" type="radio" checked />
-          <div class="relative">
-            <label>Web Developer</label>
-            <span class="date">2017 - now</span>
-            <span class="circle"></span>
-          </div>
-          <div class="content">
+      <div class="timeline-container">
+        <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Web Developer (2017 - present)</h3>
             <p>
               <b>Position:</b> Web Developer at Rajamangala University of
               Technology Thanyaburi<br />
@@ -49,11 +15,35 @@
               <br />
               - Design and Analytic Database Structure <br />
               - Design Web Front-End for Desktop & Mobile <br />
-              - Development summary report for the department <br />
+              - Development data report for the department <br />
             </p>
           </div>
-        </li>
-      </ul>
+        </div>
+
+        <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Student intership (2015)</h3>
+            <p>
+              <b>Position:</b> IOS Developer at TOT Innovation Institute<br />
+              <b>Job Description:</b> Designed and developed Pathum Chamber
+              application used for collecting information about restaurants in
+              Pathumthani using Xcode and objective-c language.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Education (2012 - 2015)</h3>
+            <p>
+              Bachelor of Computer Science in Science and Technology ,
+              Rajamangala University of Technology Thanyaburi , GPA 3.11
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>

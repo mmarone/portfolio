@@ -1,154 +1,91 @@
-#timeline {
-    list-style: none;
-    margin: 5rem 0 3rem 12rem;
-    padding-left: 30px;
-    border-left: 8px solid $color-green;
-
-    @media only screen and (max-width: 935px) {
-        margin: 0;
-        padding-left: 0;
-        border-left: none;
-    }
-
-    li {
-        margin: 40px 0;
-        position: relative;
-    }
-    p {
-        margin: 0 0 15px;        
-        @media only screen and (max-width: 935px) {
-            font-size: 1.75rem;
-        }
-    }
-}
-
-.date {
-    margin-top: -1.5rem;
-    top: 50%;
-    left: -15.8rem;
-    
-    font-size: 0.95em;
-    font-weight: 600;
-    line-height: 20px;
-    position: absolute;
-
-    @media only screen and (max-width: 935px) {
-        display: none;
-    }
-}
-
-.circle {
-    margin-top: -1.2rem;
-    top: 50%;
-    left: -4.6rem;
-
-    width: 20px;
-    height: 20px;
-    background: $color-orange;
-    border: 5px solid $color-green;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    z-index: 1;
-    
-    @media only screen and (max-width: 935px) {
-        display: none;
-    }
-}
-
-.content {
-    padding: 50px 20px 0;
-    border-color: transparent;
-    
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 0.5em;
+.timeline-container {
+    width: 100%;
+    padding: 50px 0;
+    margin: 50px auto;
     position: relative;
-
-    background-color: $color-white;
-    box-shadow: 10px 10px 10px -5px rgba(60, 127, 239, 0.15);
-
-    &:before, &:after {
-        content: "";
-        width: 0;
-        height: 0;
-        border: solid transparent;
-        position: absolute;
-        pointer-events: none;
-        right: 100%;     
-
-        @media only screen and (max-width: 935px) {
-            top: 0;   
-        }
-    }
+    overflow: hidden;
+    color: $color-primary;
 
     &:before {
-        border-right-color: inherit;
-        border-width: 2rem;
-        top: 50%;
-        margin-top: -2rem;
-        
-        @media only screen and (max-width: 935px) {
-            display: none;
-        }
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -1px;
+        width: 2px;
+        height: 100%;
+        background: #CCD1D9;
+        z-index: 1
     }
-    
-    &:after {
-      border-right-color: $color-green;
-      border-width: 17px;
-      top: 50%;
-      margin-top: -17px;   
-      @media only screen and (max-width: 935px) {
-        display: none;
-      }
-    }
+ } 
 
-    p {
-        max-height: 0;
-        word-break: break-word;
-        hyphens: auto;
-    }
+.timeline-block {
+    width: calc(50% + 8px);
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+}
+ 
+.timeline-block-right {
+    float: right;
+}
+ 
+.timeline-block-left {
+    float: left;
+    direction: rtl;
+}
+ 
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #4FC1E9;
+    margin-top: 10px;
+    z-index: 9999
+}
+ 
+.timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: inherit;
+}
+ 
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    font-weight: 600
+}
+ 
+.timeline-content span {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-primary;
+}
+ 
+.timeline-content p {
+    font-size: 2rem;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: inherit;
 }
 
-label {
-    font-size: 2.75rem;
-    font-weight: 700;
-    position: absolute;
-    z-index: 100;
-    cursor: pointer;
-
-    top: .2rem;
-    transition: transform 0.2s linear;    
-
-    @media only screen and (max-width: 935px) {
-        font-size: 2.5rem;
+ @media screen and (max-width: 768px) {
+    .timeline-container:before {
+       left: 8px;
+       width: 2px;
     }
-}
-
-.radio {
-    display: none;
-}
-.radio:checked {
-    & + .relative {
-        label {
-            cursor: auto;
-            transform: translate(42px , 10px)            
-        }
-
-        .circle {
-            background: $color-orange;
-        }
+    .timeline-block {
+       width: 100%;
+       margin-bottom: 30px;
     }
-    & ~ .content {
-        border-color: $color-green;
-        margin-right: 20px;
-        transform: translateX(20px);
-        // transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
-        
-        p {
-            max-height: 200px;
-            color: $color-primary;
-            transition: color 0.3s linear 0.3s;
-        }
+    .timeline-block-right {
+       float: none;
     }
-}
+ 
+    .timeline-block-left {
+       float: none;
+       direction: ltr;
+    }
+ }
