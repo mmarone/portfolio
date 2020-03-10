@@ -4,13 +4,21 @@
     padding-left: 30px;
     border-left: 8px solid $color-green;
 
+    @media only screen and (max-width: 935px) {
+        margin: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+
     li {
         margin: 40px 0;
         position: relative;
     }
     p {
-        margin: 0 0 15px;
-        // opacity: 0;
+        margin: 0 0 15px;        
+        @media only screen and (max-width: 935px) {
+            font-size: 1.75rem;
+        }
     }
 }
 
@@ -23,6 +31,10 @@
     font-weight: 600;
     line-height: 20px;
     position: absolute;
+
+    @media only screen and (max-width: 935px) {
+        display: none;
+    }
 }
 
 .circle {
@@ -38,12 +50,13 @@
     display: block;
     position: absolute;
     z-index: 1;
+    
+    @media only screen and (max-width: 935px) {
+        display: none;
+    }
 }
 
 .content {
-    // height: 50px;
-    // max-height: 20px;
-    // max-width: 660px;
     padding: 50px 20px 0;
     border-color: transparent;
     
@@ -52,6 +65,9 @@
     border-radius: 0.5em;
     position: relative;
 
+    background-color: $color-white;
+    box-shadow: 10px 10px 10px -5px rgba(60, 127, 239, 0.15);
+
     &:before, &:after {
         content: "";
         width: 0;
@@ -59,9 +75,11 @@
         border: solid transparent;
         position: absolute;
         pointer-events: none;
+        right: 100%;     
 
-        right: 100%;
-        
+        @media only screen and (max-width: 935px) {
+            top: 0;   
+        }
     }
 
     &:before {
@@ -70,25 +88,30 @@
         top: 50%;
         margin-top: -2rem;
         
-      &:after {
-        border-right-color: $color-green;
-        border-width: 17px;
-        top: 50%;
-        margin-top: -17px;
-          
+        @media only screen and (max-width: 935px) {
+            display: none;
+        }
+    }
+    
+    &:after {
+      border-right-color: $color-green;
+      border-width: 17px;
+      top: 50%;
+      margin-top: -17px;   
+      @media only screen and (max-width: 935px) {
+        display: none;
       }
-      p {
+    }
+
+    p {
         max-height: 0;
-        text-align: justify;
         word-break: break-word;
         hyphens: auto;
-        overflow: hidden;
-      }
     }
 }
 
 label {
-    font-size: 1.3em;
+    font-size: 2.75rem;
     font-weight: 700;
     position: absolute;
     z-index: 100;
@@ -96,6 +119,10 @@ label {
 
     top: .2rem;
     transition: transform 0.2s linear;    
+
+    @media only screen and (max-width: 935px) {
+        font-size: 2.5rem;
+    }
 }
 
 .radio {
@@ -116,7 +143,7 @@ label {
         border-color: $color-green;
         margin-right: 20px;
         transform: translateX(20px);
-        transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
+        // transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
         
         p {
             max-height: 200px;

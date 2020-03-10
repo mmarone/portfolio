@@ -115,12 +115,39 @@ export default {
 
     &__item:hover {
       color: currentColor;
-      border-color: currentColor;
+      // border-color: currentColor;
+
+      & > .top-nav__link:after,
+      & > .top-nav__link:before {
+        width: 50%;
+      }
     }
 
     &__link {
       color: currentColor;
       text-decoration: none;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        right: 50%;
+        width: 0;
+        height: 4px;
+        background-color: $color-white;
+        transition: 0.2s;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        width: 0;
+        height: 4px;
+        background-color: $color-white;
+        transition: 0.2s;
+      }
     }
   }
 

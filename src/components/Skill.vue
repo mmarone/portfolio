@@ -90,7 +90,7 @@
             MongoDB
           </b>
           <span class="bar bar-mongo"></span>
-        </div>   
+        </div>
         <div class="card category-card">
           <img
             class="category-card__img"

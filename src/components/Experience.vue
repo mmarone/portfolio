@@ -6,14 +6,14 @@
         <li class="work">
           <input class="radio" type="radio" checked />
           <div class="relative">
-            <label>University</label>
+            <label>Education</label>
             <span class="date">2012 - 2015</span>
             <span class="circle"></span>
           </div>
           <div class="content">
             <p>
               Bachelor of Computer Science in Science and Technology ,
-              Rajamangala University of Technology Thunyaburi , GPA 3.11
+              Rajamangala University of Technology Thanyaburi , GPA 3.11
             </p>
           </div>
         </li>
@@ -43,12 +43,13 @@
           <div class="content">
             <p>
               <b>Position:</b> Web Developer at Rajamangala University of
-              Technology Thunyaburi<br />
+              Technology Thanyaburi<br />
               <b>Job Description:</b> Developed the assigned web applications
+              for departments of the university.
               <br />
-              - Front-end using HTML5 CSS(Bootstrap Framework) <br />
-              and Javascript(Jquery) <br />
-              - Back-end using PHP Mysql and Nodejs(Express Framework)
+              - Design and Analytic Database Structure <br />
+              - Design Web Front-End for Desktop & Mobile <br />
+              - Development summary report for the department <br />
             </p>
           </div>
         </li>
