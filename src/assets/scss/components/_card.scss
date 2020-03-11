@@ -1,0 +1,124 @@
+.card {
+    padding: 3rem;
+    background-color: #fff;
+    border: 1px solid rgba(11, 95, 236, 0.075);
+    border-radius: 3px;
+    box-shadow: 0 0.5rem 2.5rem rgba(60, 127, 239, 0.15);
+    transition: all 0.2s;
+    margin: 10px;
+    position: relative;
+    width: calc((100% / 5) - 20px);
+  
+    @media screen and (max-width: 1280px) {
+      width: calc((100% / 3) - 20px);
+    }
+  
+    @media screen and (max-width: 900px) {
+      width: calc((100% / 2) - 20px);
+    }
+  
+    @media screen and (max-width: 385px) {
+      width: 100%;
+    }
+  
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-10px);
+  
+      .bar.bar-vue {
+        background-color: $color-vue;
+      }
+      .bar.bar-vue {
+        background-color: $color-vue;
+      }
+      .bar.bar-node {
+        background-color: $color-node;
+      }
+      .bar.bar-mongo {
+        background-color: $color-mongo;
+      }
+      .bar.bar-js {
+        background-color: $color-js;
+      }
+      .bar.bar-php {
+        background-color: $color-php;
+      }
+      .bar.bar-mysql {
+        background-color: $color-mysql;
+      }
+      .bar.bar-sass {
+        background-color: $color-sass;
+      }
+      .bar.bar-bootstrap {
+        background-color: $color-bootstrap;
+      }
+      .bar.bar-bulma {
+        background-color: $color-bulma;
+      }
+      .bar.bar-git {
+        background-color: $color-git;
+      }
+    }
+  
+    .bar {
+      position: absolute;
+      width: 100%;
+      height: 8px;
+      bottom: 0;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+  
+      &.bar-vue {
+        background-color: lighten($color-vue, 30%);
+      }
+      &.bar-node {
+        background-color: lighten($color-node, 30%);
+      }
+      &.bar-mongo {
+        background-color: lighten($color-mongo, 30%);
+      }
+      &.bar-js {
+        background-color: lighten($color-js, 30%);
+      }
+      &.bar-php {
+        background-color: lighten($color-php, 30%);
+      }
+      &.bar-mysql {
+        background-color: lighten($color-mysql, 30%);
+      }
+      &.bar-sass {
+        background-color: lighten($color-sass, 30%);
+      }
+      &.bar-bootstrap {
+        background-color: lighten($color-bootstrap, 30%);
+      }
+      &.bar-bulma {
+        background-color: lighten($color-bulma, 30%);
+      }
+      &.bar-git {
+        background-color: lighten($color-git, 15%);
+      }
+    }
+}
+  
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        font-size: 2rem;
+        @media screen and (max-width: 450px) {
+        font-size: 1.5rem;
+        }
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    &__img {
+        height: 12rem;
+        @media screen and (max-width: 450px) {
+        height: 10rem;
+        }
+    }
+}

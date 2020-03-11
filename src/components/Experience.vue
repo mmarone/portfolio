@@ -52,16 +52,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-@import "../assets/scss/timeline.scss";
-.exp {
-  font-size: 2rem;
-  padding: 5%;
-  // background-color: $color-white;
-  background-color: rgb(245, 245, 245);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-</style>
+<style lang="scss" scoped></style>

@@ -1,8 +1,7 @@
 <template>
   <section id="about" class="about bg-white">
     <div class="container">
-      <div class="profile-pic">
-      </div>
+      <div class="profile-pic"></div>
       <div class="profile-info">
         <div class="name">
           <b>Hi, i'm Nataphong!</b>
@@ -50,70 +49,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: $color-white;
-
-  background-image: linear-gradient(
-      to right,
-      rgba(50, 60, 65, 0.85),
-      rgba(21, 26, 27, 0.85)
-    ),
-    url(../assets/img/bg2.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-
-  .profile-pic {
-    width: 20em;
-    height: 20rem;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto;
-
-    background-image: url(../assets/img/profile.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .profile-info {
-    margin-top: 2rem;
-    .name {
-      font-size: 3.5rem;
-      text-align: center;
-
-      @media only screen and (max-width: $bp-small) {
-        font-size: 2.75rem;
-      }
-    }
-
-    p {
-      font-size: 2.5rem;
-      text-align: justify;
-      @media only screen and (max-width: $bp-small) {
-        font-size: 1.75rem;
-      }
-    }
-
-    .contact {
-      font-size: 2.5rem;
-      text-align: center;
-      margin-top: 2rem;
-      @media only screen and (max-width: $bp-small) {
-        font-size: 1.75rem;
-      }
-
-      .social {
-        margin: 2rem 0;
-        &-link {
-          color: $color-white;
-          &:nth-child(2) {
-            margin: 0 2rem;
-          }
-        }
-      }
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

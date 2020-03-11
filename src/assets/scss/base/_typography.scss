@@ -1,0 +1,14 @@
+.section-header {
+    text-align: center;
+    font-size: 4rem;
+    cursor: default;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3rem;
+    }
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

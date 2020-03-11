@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Mitr:400,500,600,700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    @media only screen and (max-width: $bp-largest) , screen and (min-width: $bp-largest){
+        font-size: 60%;
+    }    
+}
+
+body {
+    font-family: $font-primary;
+    line-height: 1.6;
+    background-color: #eee;
+}
