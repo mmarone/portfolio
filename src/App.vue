@@ -61,8 +61,8 @@ export default {
     height: 7rem;
     width: 7rem;
     position: fixed;
-    // top: 5rem;
-    bottom: 5rem;
+    top: 5rem;
+    // bottom: 5rem;
     right: 5rem;
     border-radius: 50%;
     z-index: 2000;
@@ -73,14 +73,14 @@ export default {
 
   &__menu {
     position: fixed;
-    // top: 7rem;
-    bottom: 7rem;
+    top: 7rem;
+    // bottom: 7rem;
     right: 7rem;
     z-index: 1500;
 
     opacity: 0;
     transform: scale(0);
-    transform-origin: bottom right;
+    transform-origin: top right;
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 

@@ -64,6 +64,9 @@ export default {};
     ),
     url(../assets/img/bg2.jpg);
   background-size: cover;
+  // background-repeat: no-repeat;
+  // background-size: auto;
+  background-position: center;
   background-attachment: fixed;
 
   .profile-pic {

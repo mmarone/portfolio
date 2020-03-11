@@ -1,23 +1,5 @@
 <template>
   <header class="header">
-    <!-- <div class="navbar-container">
-      <div class="navbar-list">
-        <a class="navbar-item" href="#experience">Experience</a>
-        <a class="navbar-item" href="#skill">My skill</a>
-        <a class="navbar-item" href="#about-me">My project</a>
-        <a class="navbar-item" href="#about-me">About me</a>
-      </div>
-    </div> -->
-    <!-- <nav class="menu_trigger">
-      <ul class="menu_trigger">
-        <li class="site-nav__item">
-          <a class="site-nav__link" href="#">Home</a>
-        </li>
-        <li class="site-nav__item">
-          <a class="site-nav__link" href="#">Experience</a>
-        </li>
-      </ul>
-    </nav> -->
     <div class="container">
       <nav class="top-nav">
         <ul class="top-nav__menu">
@@ -73,6 +55,7 @@ export default {
       rgba(15, 19, 20, 0.85)
     ),
     url(../assets/img/bg.jpg);
+  background-position: center;
   background-attachment: fixed;
 
   .menu-trigger {
