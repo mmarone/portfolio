@@ -133,6 +133,72 @@ section {
   }
 }
 
+.portfolio {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.85),
+      rgba(145, 145, 145, 0.85)
+    ),
+    url("~@/assets/img/bg2.jpg");
+
+  @media only screen and (min-width: $bp-largest) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.85),
+        rgba(145, 145, 145, 0.85)
+      ),
+      url("~@/assets/img/bg2.jpg");
+  }
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  a {
+    color: $color-white;
+  }
+
+  .project {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-detail,
+    &-image {
+      width: 100%;
+
+      @media only screen and (min-width: $bp-largest) {
+        width: 50%;
+      }
+    }
+
+    &-detail {
+      padding: 2rem;
+      .title {
+        font-size: 2.75rem;
+      }
+      .subtitle {
+        font-size: 2rem;
+      }
+      .detail {
+        font-size: 2rem;
+        margin: 2rem 0;
+      }
+    }
+
+    &-image {
+      .image-container {
+        padding: 2rem;
+
+        .image {
+          box-shadow: 0px 0px 1rem 0.5rem rgba($color-black, 0.5);
+        }
+      }
+    }
+  }
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -144,7 +210,7 @@ section {
         rgba(50, 60, 65, 0.85),
         rgba(21, 26, 27, 0.85)
       ),
-      url("~@/assets/img/bg2.jpg");
+      url("~@/assets/img/bg3.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

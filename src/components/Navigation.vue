@@ -13,6 +13,9 @@
           <a href="#exp" class="navigation__link">Experience</a>
         </li>
         <li class="navigation__item">
+          <a href="#portfolio" class="navigation__link">Portfolio</a>
+        </li>
+        <li class="navigation__item">
           <a href="#skill" class="navigation__link">My skill</a>
         </li>
         <li class="navigation__item">

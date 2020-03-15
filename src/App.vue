@@ -3,6 +3,7 @@
     <navigation />
     <Home />
     <Experience />
+    <Portfolio />
     <Skill />
     <About />
     <Footer />
@@ -14,6 +15,7 @@ import Navigation from "./components/Navigation";
 import Home from "./components/Home.vue";
 import Experience from "./components/Experience.vue";
 import Skill from "./components/Skill.vue";
+import Portfolio from "./components/Portfolio.vue";
 import About from "./components/About.vue";
 import Footer from "./components/Footer.vue";
 
@@ -24,6 +26,7 @@ export default {
     Home,
     Experience,
     Skill,
+    Portfolio,
     About,
     Footer
   }

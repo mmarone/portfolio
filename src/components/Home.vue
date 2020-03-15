@@ -10,6 +10,9 @@
             <a class="top-nav__link" href="#exp">Experience</a>
           </li>
           <li class="top-nav__item">
+            <a class="top-nav__link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="top-nav__item">
             <a class="top-nav__link" href="#skill">My skill</a>
           </li>
           <li class="top-nav__item">

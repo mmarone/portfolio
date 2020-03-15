@@ -1,5 +1,5 @@
 <template>
-  <section id="exp" class="exp">
+  <section id="exp" class="exp bg-white">
     <div class="container">
       <h1 class="section-header">EXPERIENCE</h1>
       <div class="timeline-container">
@@ -13,8 +13,8 @@
               <b>Job Description:</b> Developed the assigned web applications
               for departments of the university.
               <br />
-              - Design and Analytic Database Structure <br />
-              - Design Web Front-End for Desktop & Mobile <br />
+              - Design responsive website for desktop and mobile <br />
+              - Design and analytic database structure <br />
               - Development data report for the department <br />
             </p>
           </div>
