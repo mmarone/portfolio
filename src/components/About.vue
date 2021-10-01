@@ -8,10 +8,12 @@
         </div>
         <p>
           I like to building things with code and enthusiastic to gather new
-          knowledge. I work in web developer for 2 years, developed website
+          knowledge. I work in web developer for 3 years. You can contact me at
+          the description below
+          <!-- , developed website
           Front-end and Back-end with PHP and Mysql. I am looking for a new job
           in position Front-end developer <b>(VueJS)</b> or Back-end developer
-          <b>(NodeJS)</b>.
+          <b>(NodeJS)</b>. -->
         </p>
         <div class="contact">
           <b>Tel : </b> 0955592959 <br />

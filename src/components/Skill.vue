@@ -17,24 +17,13 @@
         <div class="card category-card">
           <img
             class="category-card__img"
-            src="../assets/img/skill_logo/php.png"
-            alt="Php"
+            src="../assets/img/skill_logo/sass.png"
+            alt="Sass"
           />
           <b class="category-card__title">
-            Php
+            Sass
           </b>
-          <span class="bar bar-php"></span>
-        </div>
-        <div class="card category-card">
-          <img
-            class="category-card__img"
-            src="../assets/img/skill_logo/mysql.png"
-            alt="MySQL"
-          />
-          <b class="category-card__title">
-            MySQL
-          </b>
-          <span class="bar bar-mysql"></span>
+          <span class="bar bar-sass"></span>
         </div>
         <div class="card category-card">
           <img
@@ -72,6 +61,17 @@
         <div class="card category-card">
           <img
             class="category-card__img"
+            src="../assets/img/skill_logo/php.png"
+            alt="Php"
+          />
+          <b class="category-card__title">
+            PHP
+          </b>
+          <span class="bar bar-php"></span>
+        </div>
+        <div class="card category-card">
+          <img
+            class="category-card__img"
             src="../assets/img/skill_logo/nodejs.png"
             alt="Nodejs"
           />
@@ -83,6 +83,17 @@
         <div class="card category-card">
           <img
             class="category-card__img"
+            src="../assets/img/skill_logo/mysql.png"
+            alt="MySQL"
+          />
+          <b class="category-card__title">
+            MySQL
+          </b>
+          <span class="bar bar-mysql"></span>
+        </div>
+        <div class="card category-card">
+          <img
+            class="category-card__img"
             src="../assets/img/skill_logo/mongo.png"
             alt="Mongodb"
           />
@@ -90,17 +101,6 @@
             MongoDB
           </b>
           <span class="bar bar-mongo"></span>
-        </div>
-        <div class="card category-card">
-          <img
-            class="category-card__img"
-            src="../assets/img/skill_logo/sass.png"
-            alt="Sass"
-          />
-          <b class="category-card__title">
-            Sass
-          </b>
-          <span class="bar bar-sass"></span>
         </div>
         <div class="card category-card">
           <img

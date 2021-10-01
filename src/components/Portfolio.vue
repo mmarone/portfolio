@@ -8,12 +8,12 @@
             Decathlon sport places community
           </h2>
           <p class="detail">
-            This application is a real project. But not yet published. Developed
-            to Decathlon Rangsit Thailand, for people interested in playing
-            sports. Can search for sport places location around them and can
-            share new locations of sport places that are not available in the
-            application. If the user is a member of Decathlon, can book
-            Decathlon's sport places.
+            This application is my freelance project. Developed to Decathlon
+            Rangsit Thailand, for people interested in playing sports. Can
+            search for sport places location around them and can share new
+            locations of sport places that are not available in the application.
+            If the user is a member of Decathlon, can book Decathlon's sport
+            places.
           </p>
           <h3 class="subtitle">Stack used : VueJS | NodeJS | Mysql</h3>
           <h3 class="subtitle">
