@@ -7,9 +7,18 @@
     @media only screen and (max-width: $bp-small) {
         font-size: 3rem;
     }
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
         transform: scale(1.1);
     }
+}
+
+.skill-header {
+    font-size: 2.5rem;
+    @media screen and (max-width: 450px) {
+        font-size: 1.75rem;
+    }
+
+    margin-top: 3rem;
 }

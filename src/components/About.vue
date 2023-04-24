@@ -29,16 +29,9 @@
             <a
               class="social-link"
               target="_blank"
-              href="https://line.me/ti/p/zrnMqwD5i5"
+              href="https://www.linkedin.com/in/nataphong-s/"
             >
-              <font-awesome-icon size="2x" :icon="['fab', 'line']" />
-            </a>
-            <a
-              class="social-link"
-              target="_blank"
-              href="https://www.facebook.com/nataphong.somjai"
-            >
-              <font-awesome-icon size="2x" :icon="['fab', 'facebook-square']" />
+              <font-awesome-icon size="2x" :icon="['fab', 'linkedin']" />
             </a>
           </div>
         </div>
@@ -48,7 +41,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped></style>

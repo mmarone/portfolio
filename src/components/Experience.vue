@@ -6,16 +6,18 @@
         <div class="timeline-block timeline-block-left">
           <div class="marker"></div>
           <div class="timeline-content">
-            <h3>Front-end Developer (2020 - present)</h3>
+            <h3>Front-end Developer (2020 - 2023)</h3>
             <p>
-              <b>Position:</b> Front-end developer at Akita Fulfillment Co.,
-              Ltd.<br />
-              <b>Job Description:</b> Developed technical expertise for order
-              and warehouse management systems to the company.
+              <b>Position:</b> Front-end developer at Sellsuki<br />
+              <b>Job Description:</b> Developed order and warehouse management
+              web applications for the company.
               <br />
-              - Design responsive website for desktop and mobile. <br />
-              - Developed new feature to improve user experience. <br />
-              - Resolved production issues. <br />
+              - Developed frontend web applications from design system for
+              desktop and mobile with VueJS, Vuetify, Bootstrap, and SCSS <br />
+              - Developed new features to improve user experience <br />
+              - Developed RESTFul API and design database structure with NestJS
+              and MongoDB <br />
+              - Resolved production bugs and issues
             </p>
           </div>
         </div>
@@ -27,8 +29,8 @@
             <p>
               <b>Position:</b> Web Developer at Rajamangala University of
               Technology Thanyaburi<br />
-              <b>Job Description:</b> Developed the assigned web applications
-              for departments of the university.
+              <b>Job Description:</b> Planned and designed web applications for
+              departments of the university using PHP and MySQL.
               <br />
               - Design responsive website for desktop and mobile <br />
               - Design and analytic database structure <br />
@@ -43,9 +45,10 @@
             <h3>Student intership (2015)</h3>
             <p>
               <b>Position:</b> IOS Developer at TOT Innovation Institute<br />
-              <b>Job Description:</b> Designed and developed Pathum Chamber
-              application used for collecting information about restaurants in
-              Pathumthani using Xcode and objective-c language.
+              <b>Job Description:</b> Designed and developed an application for
+              iOS devices named Pathum Chamber used for collecting information
+              about restaurants and can search for restaurants in the province.
+              Using Objective-c language and connecting with web service API.
             </p>
           </div>
         </div>
@@ -66,7 +69,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped></style>

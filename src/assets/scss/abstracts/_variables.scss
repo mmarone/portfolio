@@ -1,9 +1,11 @@
-$color-primary: #2C2C2C;
+$color-primary: #2c2c2c;
 $color-white: #fff;
 $color-black: #000;
 $color-grey-light: #eee;
 $color-vue: #41b883;
+$color-react: #61dbfb;
 $color-node: #4bae4f;
+$color-typescript: #2d79c7;
 $color-node2: #429246;
 $color-mongo: #68ae55;
 $color-js: #fed93d;
@@ -12,14 +14,16 @@ $color-mysql: #4479a1;
 $color-sass: #cc6699;
 $color-bootstrap: #8854d6;
 $color-bulma: #00d1b2;
+$color-tailwind: #61dbfb;
 $color-git: #ff8080;
-
+$color-docker: #73abff;
+$color-k8s: #2e6ce6;
 
 // FONT VARIABLES
-$font-primary: 'Quicksand', sans-serif;
+$font-primary: "Quicksand", sans-serif;
 
 // RESPONSIVE BREAKPOINTS
-$bp-largest: 75em;  // 1200px
-$bp-large: 62.5em;  // 1000px
-$bp-medium: 50em;   // 800px
-$bp-small: 37.5em;  // 600px
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em; // 600px
